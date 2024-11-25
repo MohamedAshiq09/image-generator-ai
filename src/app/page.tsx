@@ -1,6 +1,7 @@
+"use client"
 import { useState } from 'react';
 import axios from 'axios';
-import styles from '../styles/Home.module.css';
+import styles from './styles/Home.module.css';
 import ImageResult from './components/ImageResult';
 
 export default function Home() {
