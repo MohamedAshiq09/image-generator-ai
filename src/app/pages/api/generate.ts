@@ -18,7 +18,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse<
     }
 
     try {
-        // Replace with your image generation API
+        
         const response = await axios.post(
             'https://api.openai.com/v1/images/generations',
             { prompt, n: 1, size: '512x512' },
